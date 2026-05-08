@@ -27,7 +27,7 @@ export default function Credits() {
             Lyrics by
           </p>
           <p style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 800, fontSize: '32px', textTransform: 'uppercase', color: 'rgba(240,220,190,1)', marginBottom: '16px' }}>
-            MARKANT
+            <span style={{fontFamily: "'Teko', sans-serif", fontWeight: 300, fontSize: '38px', letterSpacing: '0.06em'}}>MARKANT</span>
           </p>
           <p style={{ fontFamily: "'DM Mono', monospace", fontSize: '9px', letterSpacing: '0.15em', color: 'rgba(240,220,190,0.6)', marginBottom: '4px' }}>
             gmarkant@gmail.com

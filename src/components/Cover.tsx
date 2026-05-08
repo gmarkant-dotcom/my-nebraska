@@ -8,7 +8,7 @@ export default function Cover() {
           MY NEBRASKA
         </h1>
         <p style={{ fontFamily: "'DM Mono', monospace", fontWeight: 900, fontSize: '13px', letterSpacing: '-0.02em', textTransform: 'uppercase', color: '#6b42cc', textShadow: '0 0 20px rgba(255,255,255,0.8), 0 0 40px rgba(255,255,255,0.6)', textAlign: 'right', width: '100%', marginTop: '8px', paddingRight: '22vw' }}>
-          A concept album &nbsp;·&nbsp; Lyrics by MARKANT
+          A concept album · Lyrics by <span style={{fontFamily: "'Teko', sans-serif", fontWeight: 300, letterSpacing: '0.06em', fontSize: '15px'}}>MARKANT</span>
         </p>
       </div>
     </section>
