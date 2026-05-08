@@ -32,9 +32,7 @@ export default function Credits() {
           <p style={{ fontFamily: "'DM Mono', monospace", fontSize: '9px', letterSpacing: '0.15em', color: 'rgba(240,220,190,0.6)', marginBottom: '4px' }}>
             gmarkant@gmail.com
           </p>
-          <p style={{ fontFamily: "'DM Mono', monospace", fontSize: '9px', letterSpacing: '0.15em', color: 'rgba(240,220,190,0.6)', marginBottom: '32px' }}>
-            +1 (585) 301-8769
-          </p>
+
           <p style={{ fontFamily: "'DM Mono', monospace", fontSize: '8px', letterSpacing: '0.15em', color: 'rgba(240,220,190,0.35)' }}>
             © 2026 Greg Markant · All rights reserved
           </p>
