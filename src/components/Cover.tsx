@@ -7,7 +7,7 @@ export default function Cover() {
         <h1 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 900, fontSize: 'clamp(60px, 11.5vw, 999px)', lineHeight: 0.88, letterSpacing: '-0.02em', textTransform: 'uppercase', color: '#6b42cc', textShadow: '2px 2px 0 rgba(0,0,0,0.35)', width: '100%', whiteSpace: 'nowrap', textAlign: 'center' }}>
           MY NEBRASKA
         </h1>
-        <p style={{ fontFamily: "'DM Mono', monospace", fontWeight: 900, fontSize: '11px', letterSpacing: '0.25em', textTransform: 'uppercase', color: '#6b42cc', textShadow: '0 0 20px rgba(255,255,255,0.8), 0 0 40px rgba(255,255,255,0.6)', textAlign: 'right', width: '100%', marginTop: '8px', paddingRight: '22vw', fontSize: '13px', letterSpacing: '-0.02em' }}>
+        <p style={{ fontFamily: "'DM Mono', monospace", fontWeight: 900, fontSize: '13px', letterSpacing: '-0.02em', textTransform: 'uppercase', color: '#6b42cc', textShadow: '0 0 20px rgba(255,255,255,0.8), 0 0 40px rgba(255,255,255,0.6)', textAlign: 'right', width: '100%', marginTop: '8px', paddingRight: '22vw' }}>
           A concept album &nbsp;·&nbsp; Lyrics by MARKANT
         </p>
       </div>
