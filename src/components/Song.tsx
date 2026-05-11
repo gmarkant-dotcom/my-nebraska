@@ -18,7 +18,7 @@ export default function Song({ song }: SongProps) {
           {song.lyrics.map((stanza, i) => (
             <div key={i} style={{ marginBottom: stanza.type === 'outro' ? '0' : '28px' }}>
               {stanza.lines.map((line, j) => (
-                <p key={j} style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: stanza.type === 'bridge' || stanza.type === 'outro' ? '15px' : '17px', lineHeight: 1.9, color: 'rgba(255,255,255,0.92)', letterSpacing: '0.01em', textShadow: '0 1px 3px rgba(0,0,0,0.8), 0 0 8px rgba(0,0,0,0.6)' }}>
+                <p key={j} style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: '17px', lineHeight: 1.9, color: 'rgba(255,255,255,0.92)', letterSpacing: '0.01em', textShadow: '0 1px 3px rgba(0,0,0,0.8), 0 0 8px rgba(0,0,0,0.6)' }}>
                   {line}
                 </p>
               ))}
