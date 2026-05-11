@@ -176,7 +176,7 @@ export const SONGS: Song[] = [
       { type: 'chorus', lines: ["We're already home", "We've already won", "And it feels like we've just begun"] },
       { type: 'verse', lines: ['You say we could renovate', "I say let's take a trip out of state", 'You say you the Jones have a mountain', "I say we'll make our own epic", 'Where do we go from here?', "We're living it, it's clear"] },
       { type: 'chorus', lines: ["We're already home", "We've already won", "And it feels like we've just begun"] },
-      { type: 'verse', lines: ["You say it's movie night, in to", 'Reliving romances from our own childhood heads', 'The best days are now', 'The best days are here', 'The best days right in front of us, dear'] },
+      { type: 'verse', lines: ["You say it's movie night, in ten", 'Reliving romances from our own childhood heads', 'The best days are now', 'The best days are here', 'The best days right in front of us, dear'] },
       { type: 'chorus', lines: ["We're already home", "We've already won", "And it feels like we've just begun"] },
     ],
   },
