@@ -7,7 +7,7 @@ export default function Cover() {
         <h1 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 900, fontSize: 'clamp(60px, 11.5vw, 999px)', lineHeight: 0.88, letterSpacing: '-0.02em', textTransform: 'uppercase', color: '#6b42cc', textShadow: '2px 2px 0 rgba(0,0,0,0.35)', width: '100%', whiteSpace: 'nowrap', textAlign: 'center' }}>
           MY NEBRASKA
         </h1>
-        <p style={{ fontFamily: "'DM Mono', monospace", fontWeight: 900, fontSize: '13px', letterSpacing: '-0.02em', textTransform: 'uppercase', color: '#6b42cc', textShadow: '0 0 20px rgba(255,255,255,0.8), 0 0 40px rgba(255,255,255,0.6)', textAlign: 'right', width: '100%', marginTop: '8px', paddingRight: 'clamp(16px, 22vw, 400px)' }}>
+        <p style={{ fontFamily: "'DM Mono', monospace", fontWeight: 900, fontSize: '13px', letterSpacing: '-0.02em', textTransform: 'uppercase', color: '#6b42cc', textShadow: '0 0 20px rgba(255,255,255,0.8), 0 0 40px rgba(255,255,255,0.6)', textAlign: window.innerWidth < 640 ? 'center' : 'right', width: '100%', marginTop: '8px', paddingRight: window.innerWidth < 640 ? '0' : 'clamp(16px, 22vw, 400px)' }}>
           A concept album · Lyrics by <span style={{fontFamily: "'Teko', sans-serif", fontWeight: 300, letterSpacing: '0.06em', fontSize: '15px'}}>MARKANT</span>
         </p>
       </div>
