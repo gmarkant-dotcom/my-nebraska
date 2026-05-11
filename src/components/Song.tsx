@@ -11,14 +11,14 @@ export default function Song({ song }: SongProps) {
         <p style={{ fontFamily: "'DM Mono', monospace", fontSize: '10px', letterSpacing: '0.35em', textTransform: 'uppercase', color: '#6b42cc', opacity: 0.7, marginBottom: '10px' }}>
           Track {song.number}
         </p>
-        <h2 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 900, fontSize: 'clamp(48px, 7vw, 96px)', lineHeight: 0.9, letterSpacing: '0.02em', textTransform: 'uppercase', color: 'white', marginBottom: '52px', textAlign: 'center' }}>
+        <h2 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 900, fontSize: 'clamp(48px, 7vw, 96px)', lineHeight: 0.9, letterSpacing: '0.02em', textTransform: 'uppercase', color: 'white', marginBottom: '52px', textAlign: 'center', textShadow: '0 2px 8px rgba(0,0,0,0.9)' }}>
           {song.title}
         </h2>
         <div>
           {song.lyrics.map((stanza, i) => (
             <div key={i} style={{ marginBottom: stanza.type === 'outro' ? '0' : '28px' }}>
               {stanza.lines.map((line, j) => (
-                <p key={j} style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: stanza.type === 'bridge' || stanza.type === 'outro' ? '15px' : '17px', lineHeight: 1.9, color: 'rgba(255,255,255,0.92)', letterSpacing: '0.01em' }}>
+                <p key={j} style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: stanza.type === 'bridge' || stanza.type === 'outro' ? '15px' : '17px', lineHeight: 1.9, color: 'rgba(255,255,255,0.92)', letterSpacing: '0.01em', textShadow: '0 1px 3px rgba(0,0,0,0.8), 0 0 8px rgba(0,0,0,0.6)' }}>
                   {line}
                 </p>
               ))}
